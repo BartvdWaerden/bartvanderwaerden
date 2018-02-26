@@ -1,0 +1,18 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-styled-components",
+    "stylelint-config-property-sort-order-smacss"
+  ],
+  "syntax": "scss",
+  "plugins": [
+    "stylelint-declaration-block-no-ignored-properties",
+  ],
+  "rules": {
+    "plugin/declaration-block-no-ignored-properties": true,
+    "value-list-max-empty-lines": null,
+    "declaration-colon-newline-after": null,
+    "value-list-comma-newline-after": null
+  }
+}
