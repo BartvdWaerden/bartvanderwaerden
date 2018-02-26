@@ -5,13 +5,14 @@ env:
   - GH_REPO: bartvanderwaerden
   matrix:
     secure: XBazXZdTMXrn+4+dHXHN4aIF7OIdS6sxRgFtzxcEVAp5vpaFHTg7yzamkTQMveXbYDxBenOVgAjHzeuM+PD8WMNXAW0mBXQqLBkjwvj8VWsE2/8tJjvWtSOB9UVaXu0K2Wjw/I3pFKE2kqZnQfv1bDwcMsIgIBlzsKJHhr6hYNKpe3SBMhGp3fOo3WbxuYkmCFyBm6Z9bY4p1JiFOLl7oYe0+CB6ixKI3QIJ0Q63FSfcojO6d1WWMgrJ4vTdQhSdBq/KfjOXVnZHbDfcz8q0rkJoWvtxCgbCTuHY9SMcWWcfundVwUhhn5DEafTgLNsdIAEj6aqxd97aHDdGvvqLqbsEQTeH9nfAmm6Ux4H3O3m6CiC6SCPhc/YS1YNlPrF+LWOe7PfVwhTJhj3LDH2vOo2zJvPLBzkdfKfPNKxkD7IyoozbpWIuzLSy1206Vx+2LIDabd6xFxxHq9ndgaBT/tQuAJL2JKfH5b7Zzs+IEmkCF7jTmqHzCWa8GBs6oBd8wY6dNq4pF5sOvKpmt0YCX7TsnvjifI5i5wnix2r3pEN0O7m/fNFXcUKXMYRtn+G+v77wl/dsMdtQfJwIcVxdNuhZ41kc/LzoY8XcUAMtOhFvLkTRDQqMYn/ugcUTXPUfQbvt1rnQkjcqnxQGmKdZblCkRoSIwAgFnRzpRIeRaOY=
+
 cache:
   directories:
   - node_modules
+
 node_js:
 - stable
-before_script:
-- npm install
+
 script:
 - npm run lint
 - npm run deploy
