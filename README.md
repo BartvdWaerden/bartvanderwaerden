@@ -6,7 +6,7 @@
     <img alt="License" src="https://img.shields.io/github/license/mashape/apistatus.svg">
   </a>
   <a href="https://travis-ci.org/BartvdWaerden/BartvdWaerden-dev">
-    <img alt="Build Status" src="https://travis-ci.org/BartvdWaerden/BartvdWaerden-dev.svg?branch=master">
+    <img alt="Build Status" src="https://travis-ci.org/BartvdWaerden/bartvanderwaerden.svg?branch=master?branch=master">
   </a>
   <a href="http://commitizen.github.io/cz-cli/">
     <img alt="Commitizen Friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg">
