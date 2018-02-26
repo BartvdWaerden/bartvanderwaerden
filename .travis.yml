@@ -26,7 +26,8 @@ after_success:
 before_deploy: git config --global user.email publish@travis.github && git config --global user.name "Travis"
 deploy:
   provider: pages
-  skip-cleanup: true
+  skip-cleanup: true,
+  github_token: $github_token
   keep-history: true
   on:
     branch: gh-pages
