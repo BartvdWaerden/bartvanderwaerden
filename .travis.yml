@@ -30,5 +30,5 @@ deploy:
   github_token: $github_token
   keep-history: true
   on:
-    branch: gh-pages
+    branch: master
 
