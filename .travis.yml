@@ -14,3 +14,7 @@ deploy:
   local_dir: public
   on:
     branch: master
+
+after_success:
+  - conventional-changelog -p angular -i CHANGELOG.md -s
+  - npm run travis-deploy-once "npm run semantic-release"
