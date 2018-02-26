@@ -6,7 +6,7 @@ module.exports = {
       'Hi, I am Bart van der Waerden a Dutch front-end developer & UX Designer.',
     siteUrl: 'https://bartvanderwaerden.com',
   },
-  pathPrefix: '',
+  pathPrefix: '/bartvanderwaerden',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
