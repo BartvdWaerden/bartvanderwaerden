@@ -8,6 +8,10 @@ node_js:
   - '9'
   - '8'
 
+branches:
+  only:
+  - maste
+
 before_script:
   - npm install
 
@@ -19,6 +23,10 @@ after_success:
   - conventional-changelog -p angular -i CHANGELOG.md -s
   - npm run travis-deploy-once "npm run semantic-release"
 
-branches:
-  only:
-  - master
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: gh-pages
