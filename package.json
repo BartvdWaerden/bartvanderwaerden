@@ -1,7 +1,7 @@
 {
   "name": "bart-van-der-waerden",
   "description": "Repository for the personal website of Bart van der Waerden a Dutch front-end developer",
-  "version": "0.0.0-semantic-release",
+  "version": "0.0.0-development",
   "keywords": [
     "gatsby",
     "react",
@@ -21,7 +21,7 @@
   "author": "Bart van der Waerden <bwaerden@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BartvdWaerden/bartvdwaerden.github.io"
+    "url": "https://github.com/BartvdWaerden/bartvanderwaerden.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
