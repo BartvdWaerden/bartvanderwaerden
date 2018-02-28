@@ -13,12 +13,12 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: GITHUB_TOKEN
+  github_token: $github_token
   local_dir: public
   on:
     branch: master
 after_success:
-  - npm run travis-deploy-once "npm run semantic-release"
+  npm run semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
