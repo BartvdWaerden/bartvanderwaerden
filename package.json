@@ -1,7 +1,7 @@
 {
   "name": "bart-van-der-waerden",
   "description": "Repository for the personal website of Bart van der Waerden a Dutch front-end developer",
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantic-release",
   "keywords": [
     "gatsby",
     "react",
