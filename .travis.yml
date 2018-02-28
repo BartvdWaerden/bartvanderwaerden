@@ -4,7 +4,7 @@ node_js:
 cache:
   directories:
   - node_modules
-  ~/.npm
+  - ~/.npm
 script:
   - npm run lint
   - npm run build
@@ -15,6 +15,7 @@ deploy:
   local_dir: public
   on:
     branch: master
+
 after_success:
   - npm install -g travis-deploy-once
   - npm run travis-deploy-once "npm run semantic-release"
