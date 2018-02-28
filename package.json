@@ -1,7 +1,7 @@
 {
   "name": "bart-van-der-waerden",
   "description": "Repository for the personal website of Bart van der Waerden a Dutch front-end developer",
-  "version": "0.0.0-semantic-release",
+  "version": "0.0.1-semantic-release",
   "keywords": [
     "gatsby",
     "react",
@@ -33,7 +33,7 @@
     "lint": "npm run lint:js && npm run lint:css",
     "commit": "git-cz",
     "commitmsg": "validate-commit-msg",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "travis-deploy-once": "travis-deploy-once"
   },
   "dependencies": {
