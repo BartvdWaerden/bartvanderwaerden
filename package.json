@@ -34,7 +34,8 @@
     "commit": "git-cz",
     "commitmsg": "validate-commit-msg",
     "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once"
+    "travis-deploy-once": "travis-deploy-once",
+    "precommit": "npm run lint"
   },
   "dependencies": {
     "gatsby": "^1.9.158",
@@ -98,10 +99,5 @@
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
   }
 }
