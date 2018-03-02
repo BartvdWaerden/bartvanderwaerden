@@ -9,6 +9,7 @@ import Link from './Link'
 
 const Navigation = styled.nav`
   ${position('absolute', '-30px', null, null, '0')};
+  z-index: 2;
   transition: top 0.32s ease-in-out, opacity 0.32s ease-in-out;
   opacity: 0;
   text-align: left;

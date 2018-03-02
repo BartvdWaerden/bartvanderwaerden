@@ -23,7 +23,7 @@ const Logo = styled.h1`
       null,
       props.theme.smSpacing
     )};
-  z-index: 200;
+  z-index: 1;
   height: 30px;
   transition: top 0.32s ease-in-out, color 0.32s ease-in-out,
     opacity 0.16s ease-in-out;
