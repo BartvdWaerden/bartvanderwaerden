@@ -13,9 +13,6 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $github_token
-  NPM_TOKEN: $NPM_TOKEN
-  GH_TOKEN: $GH_TOKEN
   local_dir: public
   on:
     branch: master
