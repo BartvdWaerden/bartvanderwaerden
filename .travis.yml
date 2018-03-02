@@ -4,7 +4,7 @@ cache:
     - ~/.npm
     - node_modules
 notifications:
-  email: false
+  email: true
 node_js:
   - 'stable'
 script:
