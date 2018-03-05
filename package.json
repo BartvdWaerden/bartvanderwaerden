@@ -21,7 +21,7 @@
   "author": "Bart van der Waerden <bwaerden@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BartvdWaerden/bartvanderwaerden.git"
+    "url": "https://github.com/BartvdWaerden/BartvdWaerden.github.io"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
