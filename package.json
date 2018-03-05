@@ -27,7 +27,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build && master -b master -d public",
+    "deploy": "gatsby build && master -b source -d public",
     "lint:css": "stylelint './src/ui/**/**/*.js'",
     "lint:js": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "lint": "npm run lint:js && npm run lint:css",
