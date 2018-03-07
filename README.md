@@ -1,7 +1,6 @@
 <h1 align="center" style="border-bottom: none;">Bart van der Waerden</h1>
 <h3 align="center">Personal Blog & Portfolio</h3>
 <img alt="Logo Bart van der Waerden" src="https://github.com/BartvdWaerden/BartvdWaerden.github.io/blob/source/static/logo-bart-van-der-waerden.png">
-<img alt="Header image" src="https://source.unsplash.com/random/888x300">
 <p align="center">
   <a href="https://help.github.com/articles/licensing-a-repository">
     <img alt="License" src="https://img.shields.io/github/license/mashape/apistatus.svg">
