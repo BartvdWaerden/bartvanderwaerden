@@ -1,40 +1,6 @@
 // ui/generic/BaseStyles.js
 
 const BaseStyles = `
-
-  :root {
-    --primaryColor: #5141d3;
-    --secondaryColor: #2afb9b;
-    --grayColor: #333333;
-    --grayLightColor: #7f7f7f;
-    --grayLightestColor: #f2f2f2;
-    --whiteColor: #ffffff;
-    --blackColor: #000000;
-
-    --primaryFont: "PT Serif", serif;
-    --secondaryFont: "PT Sans", sans-serif;
-
-    --picoFontSize: .75rem/2 var(--secondaryFont);
-    --baseFontSize: 1rem/1.5 var(--primaryFont);
-    --deltaFontSize: 1.25rem/1.5 var(--primaryFont);
-    --gammaFontSize: 1.25rem/1.2 var(--primaryFont);
-    --betaFontSize: 1.5rem/1 var(--primaryFont);
-    --alphaFontSize: 2rem/1.5 var(--primaryFont);
-    --megaFontSize: 4.5rem/.85 var(--primaryFont);
-
-    --regularFontWeight: 400;
-    --boldFontWeight: 700;
-
-    --primaryLetterSpacing: .25rem;
-    --xsSpacing: 5px;
-    --smSpacing: 30px;
-    --mdSpacing: 60px;
-    --lgSpacing: 90px;
-    --xlSpacing: 120px;
-
-    --contentWidth: 1000px;
-  }
-
   body,
   html { overflow-x: hidden; }
 
@@ -47,10 +13,10 @@ const BaseStyles = `
     position: relative;
     margin: 0;
     padding: 0;
-    color: var(--grayColor);
-    font-family: var(--primaryFont);
+    color: #333333;
+    font-family: "PT Serif", serif;
     font-size: 100%;
-    font-weight: var(--regularFontWeight);
+    font-weight: 400;
     line-height: 1.5;
 
     @media (min-width: 30em) {
@@ -95,11 +61,11 @@ const BaseStyles = `
   }
 
   h1 {
-    color: var(--primaryColor);
+    color: #5141d3;
   }
 
   strong {
-    font-weight: var(--boldFontWeight);
+    font-weight: 700;
   }
 
   a {

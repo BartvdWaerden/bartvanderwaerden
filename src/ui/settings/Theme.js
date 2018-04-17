@@ -1,49 +1,49 @@
 // ui/settings/Theme.js
 
 const colors = {
-  primary: 'var(--primaryColor)',
-  secondary: 'var(--secondaryColor)',
-  gray: 'var(--grayColor)',
-  grayLight: 'var(--grayLightColor)',
-  grayLightest: 'var(--grayLightestColor)',
-  white: 'var(--whiteColor)',
-  black: 'var(--blackColor)',
+  primary: `#5141d3`,
+  secondary: `#2afb9b`,
+  gray: `#333333`,
+  grayLight: `#7f7f7f`,
+  grayLightest: `#f2f2f2;`,
+  white: `#ffffff;`,
+  black: `#000000`,
 }
 
 const fonts = {
-  primary: 'var(--primaryFont)',
-  secondary: 'var(--secondaryFont)',
+  primary: `"PT Serif", serif`,
+  secondary: `"PT Sans", sans-serif`,
 }
 
 const font = {
-  pico: 'var(--picoFontSize)',
-  base: 'var(--baseFontSize)',
-  delta: 'var(--deltaFontSize)',
-  gamma: 'var(--gammaFontSize)',
-  beta: 'var(--betaFontSize)',
-  alpha: 'var(--alphaFontSize)',
-  mega: 'var(--megaFontSize)',
+  pico: `.75rem/2 ${fonts.secondary}`,
+  base: `1rem/1.5 ${fonts.primary}`,
+  delta: `1.25rem/1.5 ${fonts.primary}`,
+  gamma: `1.25rem/1.2 ${fonts.primary}`,
+  beta: `1.5rem/1 ${fonts.primary}`,
+  alpha: `2rem/1.5 ${fonts.primary}`,
+  mega: `4.5rem/.85 ${fonts.primary}`,
 }
 
 const fontWeight = {
-  regular: 'var(--regularFontWeight)',
-  bold: 'var(--boldFontWeight)',
+  regular: `400`,
+  bold: `700`,
 }
 
 const letterSpacing = {
-  primary: 'var(--primaryLetterSpacing)',
+  primary: `.25rem`,
 }
 
 const spacing = {
-  xs: 'var(--xsSpacing)',
-  sm: 'var(--smSpacing)',
-  md: 'var(--mdSpacing)',
-  lg: 'var(--lgSpacing)',
-  xl: 'var(--xlSpacing)',
+  xs: `5px`,
+  sm: `30px`,
+  md: `60px`,
+  lg: `90px`,
+  xl: `120px`,
 }
 
 const width = {
-  contentWidth: 'var(--contentWidth)',
+  contentWidth: `1000px`,
 }
 
 export default {
