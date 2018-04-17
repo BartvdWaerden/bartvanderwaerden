@@ -16,7 +16,16 @@ module.exports = {
   "rules": {
     "prettier/prettier": "error",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }]
+    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          '.storybook/**',
+          'stories/**'
+        ]
+      }
+    ]
   },
   "globals": {
     "graphql": false,
