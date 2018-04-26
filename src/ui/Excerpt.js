@@ -1,9 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { navigateTo } from 'gatsby-link'
 
 import Time from './elements/Time'
 import Card from './components/Card'
 import Tag from './components/Tag'
+import Link from './Link'
 
 const Excerpt = ({ data }) => {
   const { date, tag, title } = data.frontmatter
@@ -11,16 +13,20 @@ const Excerpt = ({ data }) => {
   const { excerpt } = data
   const url = slug.replace(/\/$/, ``)
   return (
-    <Card>
+    <Card onClick={() => navigateTo(url)}>
       <Time>{date}</Time>
       <Tag>{tag}</Tag>
       <Card.Title>{title}</Card.Title>
       {/* eslint-disable */}
       <Card.Text dangerouslySetInnerHTML={{ __html: excerpt }} />
       {/* eslint-enable */}
-      <Card.Link to={url} modifiers={['arrow']}>
-        Continue reading
-      </Card.Link>
+      <Link
+        link={{
+          title: 'Continue reading',
+          url,
+          modifiers: ['arrow'],
+        }}
+      />
     </Card>
   )
 }

@@ -12,6 +12,9 @@ function UnstyledA(props) {
 }
 
 const modifierConfig = {
+  secondary: ({ theme }) => `
+    color: ${theme.secondaryColor};
+  `,
   arrow: () => `
     &::after {
       content: '→';
