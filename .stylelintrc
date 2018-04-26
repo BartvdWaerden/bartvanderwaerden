@@ -13,6 +13,9 @@
     "plugin/declaration-block-no-ignored-properties": true,
     "value-list-max-empty-lines": null,
     "declaration-colon-newline-after": null,
-    "value-list-comma-newline-after": null
+    "value-list-comma-newline-after": null,
+    "declaration-block-semicolon-newline-after": null,
+    "rule-empty-line-before": null,
+    "no-duplicate-selectors": null
   }
 }
