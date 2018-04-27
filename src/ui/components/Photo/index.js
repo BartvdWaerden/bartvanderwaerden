@@ -2,13 +2,14 @@
 
 import styled from 'styled-components'
 import { position, size } from 'polished'
+import breakpoint from '../../settings/Breakpoints'
 
 const Photo = styled.div`
   position: relative;
   z-index: -1;
   grid-area: 2 / 1 / 3 / -1;
 
-  @media (min-width: 64em) {
+  @media ${breakpoint.large} {
     grid-row-end: -1;
   }
 
@@ -17,7 +18,7 @@ const Photo = styled.div`
     position: absolute;
     object-fit: cover;
 
-    @media (min-width: 64em) {
+    @media ${breakpoint.large} {
       width: 50%;
     }
   }
@@ -27,7 +28,7 @@ const Photo = styled.div`
     content: '';
     background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, white);
 
-    @media (min-width: 64em) {
+    @media ${breakpoint.large} {
       ${position('absolute', null, '50%', null, null)};
     }
   }

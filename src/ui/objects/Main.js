@@ -1,6 +1,7 @@
 // ui/objects/Main.js
 
 import styled from 'styled-components'
+import breakpoint from '../settings/Breakpoints'
 
 const Main = styled.section`
   grid-area: main;
@@ -9,7 +10,7 @@ const Main = styled.section`
   justify-self: center;
   padding: ${props => props.theme.smSpacing};
 
-  @media (min-width: 64em) {
+  @media ${breakpoint.large} {
     padding: 180px ${props => props.theme.mdSpacing};
   }
 `

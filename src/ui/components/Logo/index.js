@@ -3,6 +3,7 @@
 import styled from 'styled-components'
 import { applyStyleModifiers } from 'styled-components-modifiers'
 import { position, size } from 'polished'
+import breakpoint from '../../settings/Breakpoints'
 
 const modifierConfig = {
   secondary: ({ theme }) => `
@@ -35,7 +36,7 @@ const Logo = styled.h1`
   text-transform: uppercase;
   cursor: pointer;
 
-  @media (min-width: 64em) {
+  @media ${breakpoint.large} {
     ${props =>
       position(
         'absolute',
@@ -66,7 +67,7 @@ const Logo = styled.h1`
       background-color: white;
     }
 
-    @media (min-width: 48em) {
+    @media ${breakpoint.medium} {
       opacity: 1;
     }
   }

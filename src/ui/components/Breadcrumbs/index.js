@@ -2,6 +2,7 @@
 
 import styled from 'styled-components'
 import { margin } from 'polished'
+import breakpoint from '../../settings/Breakpoints'
 
 import Item from './Item'
 import Link from './Link'
@@ -13,7 +14,7 @@ const Breadcrumbs = styled.ul`
   align-content: flex-start;
   list-style: none;
 
-  @media (min-width: 105em) {
+  @media ${breakpoint.huge} {
     margin-top: 0;
   }
 `

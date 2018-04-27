@@ -1,6 +1,7 @@
 // ui/components/Card/index.js
 
 import styled from 'styled-components'
+import breakpoint from '../../settings/Breakpoints'
 
 import Title from './Title'
 import Text from './Text'
@@ -10,7 +11,7 @@ const Card = styled.article`
   margin-top: ${props => props.theme.mdSpacing};
   cursor: pointer;
 
-  @media (min-width: 64em) {
+  @media ${breakpoint.large} {
     margin-top: ${props => props.theme.lgSpacing};
   }
 
