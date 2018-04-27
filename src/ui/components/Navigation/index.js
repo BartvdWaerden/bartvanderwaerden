@@ -2,6 +2,7 @@
 
 import styled from 'styled-components'
 import { position } from 'polished'
+import breakpoint from '../../settings/Breakpoints'
 
 import List from './List'
 import Item from './Item'
@@ -15,7 +16,7 @@ const Navigation = styled.nav`
   text-align: left;
   text-transform: uppercase;
 
-  @media (min-width: 48em) {
+  @media ${breakpoint.medium} {
     ${position('-30px', '150px', null, 'auto')};
   }
 

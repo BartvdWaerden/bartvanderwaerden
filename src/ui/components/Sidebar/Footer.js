@@ -1,6 +1,7 @@
 // ui/components/Sidebar/Footer.js
 
 import styled from 'styled-components'
+import breakpoint from '../../settings/Breakpoints'
 
 const Footer = styled.div`
   align-self: end;
@@ -10,7 +11,7 @@ const Footer = styled.div`
     color: ${props => props.theme.secondaryColor};
   }
 
-  @media (min-width: 64em) {
+  @media ${breakpoint.large} {
     margin-top: 0;
   }
 `

@@ -1,6 +1,7 @@
 // ui/objects/Grid.js
 
 import styled from 'styled-components'
+import breakpoint from '../settings/Breakpoints'
 
 const Grid = styled.div`
   display: grid;
@@ -14,7 +15,7 @@ const Grid = styled.div`
 const GridWithSidebar = Grid.extend`
   grid-template-areas: 'header' 'sidebar' 'main';
 
-  @media (min-width: 64em) {
+  @media ${breakpoint.large} {
     grid-template-areas:
       'header header'
       'sidebar main';

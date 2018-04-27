@@ -2,6 +2,7 @@
 
 import styled from 'styled-components'
 import { position, size } from 'polished'
+import breakpoint from '../../settings/Breakpoints'
 
 const NavIcon = styled.button`
   ${position('absolute', '26px', '15px', null, null)};
@@ -25,7 +26,7 @@ const NavIcon = styled.button`
     background-color: ${props =>
       props.homepage ? props.theme.whiteColor : props.theme.primaryColor};
 
-    @media (min-width: 64em) {
+    @media ${breakpoint.large} {
       background-color: ${props => props.theme.primaryColor};
     }
   }

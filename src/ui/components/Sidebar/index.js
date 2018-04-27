@@ -2,6 +2,7 @@
 
 import styled from 'styled-components'
 import { position } from 'polished'
+import breakpoint from '../../settings/Breakpoints'
 
 import Title from './Title'
 import Footer from './Footer'
@@ -17,7 +18,7 @@ const Sidebar = styled.aside`
     ${props => props.theme.smSpacing} ${props => props.theme.smSpacing};
   color: ${props => props.theme.whiteColor};
 
-  @media (min-width: 64em) {
+  @media ${breakpoint.large} {
     grid-template-rows: repeat(2, 1fr);
     padding: 180px ${props => props.theme.mdSpacing}
       ${props => props.theme.smSpacing} ${props => props.theme.mdSpacing};
