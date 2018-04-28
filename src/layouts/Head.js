@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { injectGlobal } from 'styled-components'
 import { normalize } from 'polished'
-import BaseStyles from '../ui/generic/BaseStyles'
+import BaseStyles from '../styles/generic/BaseStyles'
 import favicon from '../../static/favicon.png'
 
 injectGlobal`
