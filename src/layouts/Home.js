@@ -2,11 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { ThemeProvider } from 'styled-components'
 
-import Theme from '../ui/settings/Theme'
+import Theme from '../styles/settings/Theme'
 import Head from '../layouts/Head'
-import { GridWithSidebar } from '../ui/objects/Grid'
-import PageHead from '../ui/PageHead'
-import Photo from '../ui/components/Photo'
+import { GridWithSidebar } from '../styles/objects/Grid'
+import PageHead from '../components/PageHead'
+import Photo from '../styles/components/Photo'
 import image from '../../static/bart-van-der-waerden.jpg'
 
 const Home = ({ children }) => (

@@ -2,13 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { ThemeProvider } from 'styled-components'
-import Theme from '../ui/settings/Theme'
+import Theme from '../styles/settings/Theme'
 
 import Head from '../layouts/Head'
-import { Grid } from '../ui/objects/Grid'
-import PageHead from '../ui/PageHead'
-import Breadcrumb from '../ui/Breadcrumb'
-import Main from '../ui/objects/Main'
+import { Grid } from '../styles/objects/Grid'
+import PageHead from '../components/PageHead'
+import Breadcrumb from '../components/Breadcrumb'
+import Main from '../styles/objects/Main'
 
 const Default = ({ location, children }) => (
   <ThemeProvider theme={Theme}>

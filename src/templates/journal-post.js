@@ -3,11 +3,11 @@ import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 
 import Default from '../layouts/Default'
-import Author from '../ui/components/Author'
-import A from '../ui/elements/A'
-import Time from '../ui/elements/Time'
-import Tag from '../ui/components/Tag'
-import Copy from '../ui/components/Copy'
+import Author from '../styles/components/Author'
+import A from '../styles/elements/A'
+import Time from '../styles/elements/Time'
+import Tag from '../styles/components/Tag'
+import Copy from '../styles/components/Copy'
 
 const JournalPostTemplate = ({ location, data }) => {
   const post = data.markdownRemark

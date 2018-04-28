@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 
 import Default from '../layouts/Default'
-import Excerpt from '../ui/Excerpt'
+import Excerpt from '../components/Excerpt'
 
 const Journal = ({ location, data }) => {
   const posts = data.allMarkdownRemark.edges

@@ -3,9 +3,9 @@ import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 
 import Home from '../layouts/Home'
-import Intro from '../ui/Intro'
-import Main from '../ui/objects/Main'
-import Excerpt from '../ui/Excerpt'
+import Intro from '../components/Intro'
+import Excerpt from '../components/Excerpt'
+import Main from '../styles/objects/Main'
 
 const Index = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title
