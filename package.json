@@ -1,6 +1,7 @@
 {
   "name": "bart-van-der-waerden",
-  "description": "Repository for the personal website of Bart van der Waerden a Dutch front-end developer",
+  "description":
+    "Repository for the personal website of Bart van der Waerden a Dutch front-end developer",
   "version": "0.0.0-development",
   "keywords": [
     "gatsby",
@@ -29,7 +30,8 @@
     "build": "gatsby build",
     "deploy": "gatsby build && gh-pages -b master -d public",
     "lint:css": "stylelint './src/ui/**/**/*.js'",
-    "lint:js": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "lint:js":
+      "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "lint": "npm run lint:js && npm run lint:css",
     "commit": "git-cz",
     "commitmsg": "validate-commit-msg",
@@ -38,9 +40,7 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
-      "npm run lint"
-    ]
+    "*.js": ["npm run lint"]
   },
   "dependencies": {
     "gatsby": "^1.9.158",
