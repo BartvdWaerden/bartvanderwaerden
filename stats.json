@@ -1,0 +1,52 @@
+{
+  "assetsByChunkName": {
+    "path---journal-tools-i-use-on-a-daily-basis": [
+      "path---journal-tools-i-use-on-a-daily-basis-1b9b952c56220052e2dc.js",
+      "path---journal-tools-i-use-on-a-daily-basis-1b9b952c56220052e2dc.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-6364f45f33ec176cba04.js",
+      "component---src-pages-index-js-6364f45f33ec176cba04.js.map"
+    ],
+    "component---src-templates-journal-post-js": [
+      "component---src-templates-journal-post-js-03ec78ee7631b893cc8a.js",
+      "component---src-templates-journal-post-js-03ec78ee7631b893cc8a.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---journal-commit-to-writing-good-commit-messages": [
+      "path---journal-commit-to-writing-good-commit-messages-662486cd86fbb70c2a08.js",
+      "path---journal-commit-to-writing-good-commit-messages-662486cd86fbb70c2a08.js.map"
+    ],
+    "path---index": [
+      "path---index-d0ce853cc925643df6ee.js",
+      "path---index-d0ce853cc925643df6ee.js.map"
+    ],
+    "commons": [
+      "commons-581f82a2f76d1a2b9848.js",
+      "commons-581f82a2f76d1a2b9848.js.map"
+    ],
+    "component---src-pages-journal-js": [
+      "component---src-pages-journal-js-97bc42f89a6653e2094a.js",
+      "component---src-pages-journal-js-97bc42f89a6653e2094a.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-5bade0aa6f2e16e114be.js",
+      "app-5bade0aa6f2e16e114be.js.map"
+    ],
+    "path---journal": [
+      "path---journal-535b628e771de496aa84.js",
+      "path---journal-535b628e771de496aa84.js.map"
+    ],
+    "path---about": [
+      "path---about-f922bdc3953c40e08815.js",
+      "path---about-f922bdc3953c40e08815.js.map"
+    ]
+  }
+}

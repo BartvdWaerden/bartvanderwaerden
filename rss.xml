@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bart van der Waerden | Front-end Developer & UX Designer]]></title><description><![CDATA[Hi, I am Bart van der Waerden a Dutch front-end developer & UX Designer.]]></description><link>https://bartvanderwaerden.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 03 May 2018 18:48:37 GMT</lastBuildDate><item><title><![CDATA[Hello my name is Bart...]]></title><description><![CDATA[an award-winning Dutch front-end developer & UX designer living in Rotterdam, the Netherlands. By day I sculpt online magic at Bynder. And…]]></description><link>https://bartvanderwaerden.com/about/</link><guid isPermaLink="false">https://bartvanderwaerden.com/about/</guid><pubDate>Wed, 07 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;an award-winning Dutch front-end developer &amp;#x26; UX designer living in Rotterdam, the Netherlands. By day I sculpt online magic at Bynder. And by night I like to wander around in the ever evolving landscapes of front-end development.&lt;/p&gt;
+&lt;p&gt;I’ve been designing for the last 8 years and got into developing about 6 years ago. I tend to spend the most of my time working with CSS, HTML and Javascript and feel quite comfortable using it.&lt;/p&gt;
+&lt;p&gt;This website is like a digital playground to me. A place where I can explore new things and share them in a way I wished they where explained to me. I learn from the community and love to share what I have learned back.&lt;/p&gt;
+&lt;p&gt;When I’m not building websites I love spending time with my girlfriend &lt;a href=&quot;http://samanthavolk.nl&quot; target=&quot;_blank&quot;&gt;Samantha&lt;/a&gt;, family and friends. Listening to some quality music, writing, fitness or running. Oohw and when I feel inspired and got some spare time left also got some aspirations in making music myself.&lt;/p&gt;
+&lt;p&gt;More questions about me or want to chat? The quickest way is through Twitter at &lt;a href=&quot;https://twitter.com/BartvdWaerden&quot; target=&quot;_blank&quot;&gt;@bartvdwaerden&lt;/a&gt;. Need more words? Feel free to shoot me an e-mail at bwaerden @ gmail dot com&lt;/p&gt;
+&lt;p&gt;You can also find me on: &lt;a href=&quot;https://github.com/BartvdWaerden&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt; where I share code, &lt;a href=&quot;https://nl.linkedin.com/in/bartvdwaerden&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt; for professional matters and &lt;a href=&quot;https://open.spotify.com/user/bartvdwaerden&quot; target=&quot;_blank&quot;&gt;Spotify&lt;/a&gt; for listening to quality music.&lt;/p&gt;
+&lt;h2&gt;About this website&lt;/h2&gt;
+&lt;p&gt;Although I plan on writing a post on how I’ve made this site from scratch in the near future. I would like to give a shout out to all the fantastic services helped me building it.&lt;/p&gt;
+&lt;p&gt;The website is written in HTML, CSS and Javascript. Compiled by &lt;a href=&quot;https://www.gatsbyjs.org/&quot; target=&quot;_blank&quot;&gt;Gatsby&lt;/a&gt; and &lt;a href=&quot;https://www.styled-components.com/&quot; target=&quot;_blank&quot;&gt;Styled Components&lt;/a&gt;. Hosted on &lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot;&gt;GitHub Pages&lt;/a&gt; and version controlled by &lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;. The fonts used are &lt;a href=&quot;https://www.google.com/fonts/specimen/PT+Serif&quot; target=&quot;_blank&quot;&gt;PT Serif&lt;/a&gt; and &lt;a href=&quot;https://www.google.com/fonts/specimen/PT+Sans&quot; target=&quot;_blank&quot;&gt;PT Sans&lt;/a&gt; served by &lt;a href=&quot;https://www.google.com/fonts&quot; target=&quot;_blank&quot;&gt;Google Fonts&lt;/a&gt;. The portraits used on this website are made by &lt;a href=&quot;http://www.krebbert.nl/&quot; target=&quot;_blank&quot;&gt;Kevin Krebbers&lt;/a&gt; as commissioned by &lt;a href=&quot;http://www.rodesk.com&quot; target=&quot;_blank&quot;&gt;Rodesk&lt;/a&gt;. All other graphics and images are made by myself.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Commit to writing good commit messages]]></title><description><![CDATA[Nowadays almost every developer uses or at least knows about Git. Git is a version control system and keeps track of changes made during…]]></description><link>https://bartvanderwaerden.com/journal/commit-to-writing-good-commit-messages/</link><guid isPermaLink="false">https://bartvanderwaerden.com/journal/commit-to-writing-good-commit-messages/</guid><pubDate>Fri, 06 Jan 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Nowadays almost every developer uses or at least knows about Git. Git is a version control system and keeps track of changes made during development.&lt;/p&gt;
+&lt;p&gt;Git allows us to work on multiple local branches independent of each other. You commit to branch &lt;code&gt;‘feature 1’&lt;/code&gt; and your colleague is committing to branch &lt;code&gt;‘feature 2’&lt;/code&gt; When your work is done you merge branches &lt;code&gt;‘feature 1’&lt;/code&gt; and &lt;code&gt;‘feature 2’&lt;/code&gt; to branch &lt;code&gt;‘develop’&lt;/code&gt; . Ultimately this leeds to better collaboration and a better experience during development.&lt;/p&gt;
+&lt;p&gt;But we can make this experience even more awesome by setting some conventions, a commit guideline. There are a couple of goals when setting up theses (commit) conventions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creating consistent git commit messages across the project and the team&lt;/li&gt;
+&lt;li&gt;Speeding up the reviewing process&lt;/li&gt;
+&lt;li&gt;Providing better information when browsing the history&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Even though this might seem like a hard subject to grasp. A lot of awesome companies and people already thought about this and made some killer conventions themselves. The only thing for us is to pick a style, alter it too our needs and hang on to it. So what are we waiting for…let’s dive in!&lt;/p&gt;
+&lt;h2&gt;The architecture of a commit message&lt;/h2&gt;
+&lt;p&gt;When looking at a clear and good commit message, each message should contain the following structure: a header, a body and finally a footer.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;header&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;header&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;BLANKLINE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;BLANKLINE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;footer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;footer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;Header&lt;/h3&gt;
+&lt;p&gt;Since this is the first thing people read when reviewing your commit this the most important part of your commit commit message. So make it count!&lt;/p&gt;
+&lt;p&gt;Setting up some kind of structure for your header might be a good idea. Your goal should be to provide as much information as possible within 50 characters our less.&lt;/p&gt;
+&lt;p&gt;Next, let’s add &lt;code&gt;&amp;#x3C;type&gt;&lt;/code&gt; and &lt;code&gt;&amp;#x3C;subject&gt;&lt;/code&gt; to our &lt;code&gt;&amp;#x3C;header&gt;&lt;/code&gt;. The skeleton of our commit message header should look like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;header&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;type&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;subject&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;header&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Your next question might be what to put in a &lt;code&gt;&amp;#x3C;type&gt;&lt;/code&gt; and what to write in a &lt;code&gt;&amp;#x3C;subject&gt;&lt;/code&gt;? Well, follow along!&lt;/p&gt;
+&lt;h4&gt;Type&lt;/h4&gt;
+&lt;p&gt;Because space is valuable within our header we use abbreviations to indicate the type of commit we’re doing. The following list contains a couple of types you could use too indicate the type commit and what the stand for.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ftr&lt;/strong&gt;: Indicates a new feature&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;fix&lt;/strong&gt;: Indicates a bug fix&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;doc&lt;/strong&gt;: Indicates a change within the documentation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ref&lt;/strong&gt;: Indicates a code refactoring that neither fixes a bug nor adds a feature&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;rev&lt;/strong&gt;: Indicates the commit reverts a previous commit and should contain the reverted commit hash within the subject.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;wip&lt;/strong&gt;: Indicates a work in progress&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By only placing 3 characters in front of our subject alone, we made our header so much more valuable and informative. An example of our work so far could be:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;ftr: &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;subject&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h4&gt;Subject&lt;/h4&gt;
+&lt;p&gt;After the &lt;code&gt;&amp;#x3C;type&gt;&lt;/code&gt; our &lt;code&gt;&amp;#x3C;header&gt;&lt;/code&gt; should contain a &lt;code&gt;&amp;#x3C;subject&gt;&lt;/code&gt;. Within our subject we summarise what this commit message does. When writing a good &lt;code&gt;&amp;#x3C;subject&gt;&lt;/code&gt; the following list contains some good rules of thumb.
+Use the imperative, present tense: “add” not “added” nor “ads”
+Capitalise first letter
+No period at the end of tje subject line. Space is precious when you’re trying to keep this line 50 characters.
+With our previous example in mind and our new knowledge we can complete our &lt;code&gt;&amp;#x3C;header&gt;&lt;/code&gt; wich should look something like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;ftr: Add the new footer design.
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;Body&lt;/h3&gt;
+&lt;p&gt;Next up is our body of the commit messag. Just as in the subject, use the imperative, present tense: “change” not “changed” nor “changes”. The body should include a comprehensive motivation for the change. But keep in mind, any line within the commit message cannot be longer then 80 characters! This allows the message to be easier to read.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;ftr: Add the new footer design
+
+Sustainable aesthetic lyft butcher wolf pop-up before they sold out,
+disrupt shoreditch.
+
+• bullet 1
+• bullet 2&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;Footer (optional)&lt;/h3&gt;
+&lt;p&gt;And last but not least comes the footer of our commit message. The footer holds further meta data, such as breaking changes, issue ids, and pull/merge request numbers.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;ftr: Add the new footer design
+
+Sustainable aesthetic lyft butcher wolf pop-up before they sold
+out, disrupt shoreditch.
+
+• bullet 1
+• bullet 2
+
+Closes #312, #245
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;Final word&lt;/h2&gt;
+&lt;p&gt;Maybe this looks like a lot of work in the beginning but I’m sure you can see the benefits of using this or a similar convention for your commit messages. Apart from creating a more consistent style across your projects and better reviewing experience there are many more positive side-effects. Generating a changelog with one simple script for instance. Although these positive side-effects are beyond the scope of this article I’m sure you can come up with some more.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tools I use on a daily basis]]></title><description><![CDATA[I enjoy reading about other peoples’ setup. I’m curious about what kind of tools/services they’re using to make their development life even…]]></description><link>https://bartvanderwaerden.com/journal/tools-i-use-on-a-daily-basis/</link><guid isPermaLink="false">https://bartvanderwaerden.com/journal/tools-i-use-on-a-daily-basis/</guid><pubDate>Thu, 05 May 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I enjoy reading about other peoples’ setup. I’m curious about what kind of tools/services they’re using to make their development life even more pleasant. I think it’s a good thing too keep an eye on other developers and be open minded about trying new tools from time to time. So I thought I’d also put together a post about my setup and the tools I use, and maybe, just maybe, inspire someone else.&lt;/p&gt;
+&lt;h2&gt;Hardware&lt;/h2&gt;
+&lt;h3&gt;15” MacBook Pro&lt;/h3&gt;
+&lt;p&gt;Currently I’m running a mid 2012 15” Macbook Pro. I really enjoy using it I’ve installed a 256gb SSD and removed my Disk Driver in favour of my old 750gb harddrive. Maybe it’s not the newest Mac anymore but it’s still blazing fast.&lt;/p&gt;
+&lt;p&gt;Although I’m not planning for a new Macbook anytime soon my next machine will be more portable. At my daily job I’m using a 13” Retina Macbook Pro and I absolutely love it’s portability.&lt;/p&gt;
+&lt;h3&gt;27” Thunderbolt Display&lt;/h3&gt;
+&lt;p&gt;Actually I own two great displays, a &lt;a href=&quot;https://www.dell.com/ae/business/p/dell-u2711/pd&quot; title=&quot;Dell UltraSharp U2711&quot;&gt;Dell UltraSharp U2711&lt;/a&gt; and a &lt;a href=&quot;https://www.apple.com/displays/&quot; title=&quot;Apple Thunderbolt Display&quot;&gt;27” Apple Thunderbolt Display&lt;/a&gt;. To be honest I like the U2711 better because of the matte screen is easier on my eyes. But the aesthetics of the Thunderbolt Display won it in the end for me plus I like the fact it instantly “charges” my Macbook.&lt;/p&gt;
+&lt;h3&gt;Apple Wireless Keyboard &amp;#x26; Magic Mouse&lt;/h3&gt;
+&lt;p&gt;Just as with the Thunderbolt Display I only like the aesthetics of the &lt;a href=&quot;https://www.apple.com/shop/mac/mac-accessories&quot; title=&quot;Apple Shop Accessories&quot;&gt;keyboard and mouse&lt;/a&gt;. They look great on my desk. But to be honest they’re horrible to work with. I’m thinking about replacing my keyboard with a &lt;a href=&quot;https://www.elitekeyboards.com/products.php?sub=pfu_keyboards,hhkbpro2&amp;#x26;pid=pdkb400b&quot; title=&quot;Happy Hacking Professional 2&quot;&gt;Happy Hacking Professional 2&lt;/a&gt; a mechanical keyboard. I’ve just not convinced my self yet I need it enough to justify the price.&lt;/p&gt;
+&lt;h3&gt;Herman Miller Mirra&lt;/h3&gt;
+&lt;p&gt;Maybe just as, or even more important than a good Macbook. A bit &lt;a href=&quot;https://store.hermanmiller.com/Products/Mirra-Chair&quot; title=&quot;Herman Miller Mira&quot;&gt;expensive&lt;/a&gt; but worth every dime and it looks nice right?&lt;/p&gt;
+&lt;h3&gt;RainDesign mStand&lt;/h3&gt;
+&lt;p&gt;Just a &lt;a href=&quot;https://www.raindesigninc.com/mstand.html&quot; title=&quot;Rain Design mStand&quot;&gt;stand&lt;/a&gt;, I like to have my Macbook lifted of the desk so I don’t have to look down that much when I’ve got my Macbook hooked to my external display.&lt;/p&gt;
+&lt;h3&gt;Shure SE 215 &amp;#x26; Sony MDR-1Am&lt;/h3&gt;
+&lt;p&gt;I love to get in the “zone” when I’m programming. I good pair of headphones is essential for me. Most of the time I’m using my &lt;a href=&quot;https://www.shure.com/americas/products/earphones/se-earphones/se215-sound-isolating-earphones&quot; title=&quot;Shure SE 215&quot;&gt;Shure’s&lt;/a&gt; in favour of my &lt;a href=&quot;https://www.sony.com/electronics/headband-headphones/mdr-1a&quot; title=&quot;Sony MDR-1A&quot;&gt;Sony headphones&lt;/a&gt; because they feel lighter and overall better sound quality.&lt;/p&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;h3&gt;Sublime Text&lt;/h3&gt;
+&lt;p&gt;For writing code I use &lt;a href=&quot;https://www.sublimetext.com/3&quot; title=&quot;Sublime Text&quot;&gt;Sublime Text&lt;/a&gt;. During the nighttime I’m fiddling aground with &lt;a href=&quot;https://www.vim.org/&quot; title=&quot;Vim&quot;&gt;Vim&lt;/a&gt; but I’m not yet productive enough too say farewell to Sublime Text. So during my daily job my weapon of choice is Sublime Text because it’s a very minimal, extensible and blazingly fast.&lt;/p&gt;
+&lt;h3&gt;iTerm2&lt;/h3&gt;
+&lt;p&gt;I find myself working more and more with the command-line-interface. I’m actually getting quite comfortable with it. The reason I started using &lt;a href=&quot;https://www.iterm2.com/&quot; title=&quot;iTem2&quot;&gt;iTerm 2&lt;/a&gt; is because of it’s flexibility and configurability. I think it’s quite funny when I think back to a few years ago. At that time I wouldn’t touch it with a ten foot pole. Right now I actually prefer the command-line-interface over an app with a GUI.&lt;/p&gt;
+&lt;h3&gt;Git&lt;/h3&gt;
+&lt;p&gt;God how could I have ever written code without &lt;a href=&quot;https://git-scm.com/&quot; title=&quot;Git&quot;&gt;git?!&lt;/a&gt; I absolutely love working with version control and my weapon of choice is git. Not working with version control? Seriously you should consider start using it.&lt;/p&gt;
+&lt;h3&gt;Sketch&lt;/h3&gt;
+&lt;p&gt;Schooled for using the Adobe suit I’m a long time user of &lt;a href=&quot;https://www.sketchapp.com/&quot; title=&quot;Sketch&quot;&gt;Sketch&lt;/a&gt;. I love it’s simplicity and the fact that I don’t have to pay a monthly fee for using it. Although it has it fair amount of bugs I think it’s a great tool.&lt;/p&gt;
+&lt;h3&gt;Ulysses&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ulyssesapp.com/&quot; title=&quot;Ulysses&quot;&gt;Ulysses&lt;/a&gt; is my go to tool for al my writing app. For blogposts or documentation. I love the clean interface it makes me feel productive and focussed. Also it’s build in library and live preview are really awesome.&lt;/p&gt;
+&lt;h3&gt;Alfred&lt;/h3&gt;
+&lt;p&gt;I’m a real productivity freak and I love al the great workflows available for &lt;a href=&quot;https://www.alfredapp.com/&quot; title=&quot;Alfred&quot;&gt;Alfred&lt;/a&gt;. It’s Spotlight on steroids. I also like the fact that you can easily write your own workflows. I try to make it a habit to when I’m doing an repetitive task that start to annoy me to write an workflow for it.&lt;/p&gt;
+&lt;h3&gt;Reeder 3&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://reederapp.com/mac/&quot; title=&quot;Reeder 3&quot;&gt;Reeder&lt;/a&gt; is my news reader of choice I’m using Feedly as service for pulling in al the news. Every morning I check my feed to stay update date with all the subjects I find interesting.&lt;/p&gt;
+&lt;h2&gt;Services&lt;/h2&gt;
+&lt;h3&gt;GitHub&lt;/h3&gt;
+&lt;p&gt;To keep everything safe and in sync I use &lt;a href=&quot;https://github.com/&quot; title=&quot;GitHub&quot;&gt;GitHub&lt;/a&gt;. I use GitHub for my private repositories but also for some open-source work. It’s a great service for my Git workflow but also to keep an eye on interesting projects.&lt;/p&gt;
+&lt;h3&gt;Spotify&lt;/h3&gt;
+&lt;p&gt;Music is perhaps my second most thing I’m passionate about next to programming. &lt;a href=&quot;https://www.spotify.com&quot; title=&quot;Spotify&quot;&gt;Spotify&lt;/a&gt; is such a great service that I’m happy to pay €10 a month for. It’s a service I use at least 8 hours a day. Music keeps me focussed and creative, without music I would be a whole lot less happy.&lt;/p&gt;
+&lt;h2&gt;To conclude&lt;/h2&gt;
+&lt;p&gt;So that’s basically it. I’m sure I missed some things but I guess they’re not as vital to my workflow as the others. Have a question or do you have an app/service I should definitely check out? Please reach out to me on &lt;a href=&quot;https://twitter.com/BartvdWaerden&quot; title=&quot;Twitter Bart van der Waerden&quot;&gt;Twitter&lt;/a&gt;!&lt;/p&gt;</content:encoded></item></channel></rss>
